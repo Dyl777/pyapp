@@ -1,0 +1,5 @@
+myenv/pyvenv.cfg
+myenv/Lib/site-packages/distutils-precedence.pth
+myenv/Lib/site-packages/mccabe.py
+myenv/Lib/site-packages/py.py
+myenv
