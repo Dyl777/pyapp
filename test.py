@@ -1,5 +1,5 @@
 from flask import Flask, jsonify
-import unittest from pytest
+from unittest import pytest
 
 app = Flask(__name__)
 
