@@ -1,5 +1,5 @@
 from flask import Flask, jsonify
-from unittest import pytest
+import unittest
 
 app = Flask(__name__)
 
@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return jsonify(message="Hello level 400 FET, Quality Assurance")
 
-class TestMyApp(unitTest.TestCase):
+class TestMyApp(unittest.TestCase):
     def setUp(self):
         self.app = app.test_client()
 
