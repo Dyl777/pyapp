@@ -13,7 +13,7 @@ class TestMyApp(unitTest.TestCase):
 
     def test_home_route(self):
         response = self.app.get('/')
-        self.assertEqual(response.app.get('/')
+        self.assertEqual(response.app.get('/'))
         self.assertEqual(response.json, {'message': 'Hello level 400 FET, Quality Assurance!'})
 
 
